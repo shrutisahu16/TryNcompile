@@ -27,10 +27,14 @@
 
 ---
 
-🚀 Run the Project
+---
 
-🔧 Without Docker
-Start the Backend Server
+## 🚀 Run the Project
+
+### 🔧 Without Docker
+
+**Start the Backend Server**
+```bash
 cd ./Backend
 nodemon ./index.js
 
@@ -43,8 +47,8 @@ npm run dev
 Start the Frontend (as usual)
 cd ./frontend
 npm run dev
-Build and Run Backend with Docker
 
+Build and Run Backend with Docker
 cd ../Backend
 docker image build -t cpp-compiler .
 docker container run -d --name con1 -p 3000:3000 cpp-compiler
